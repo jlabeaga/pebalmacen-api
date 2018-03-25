@@ -1,0 +1,12 @@
+package com.picosdeeuropaberries.pebalmacen.exception;
+
+public enum CodigosError {
+
+	GENERAL,
+	GENERAL_ERROR_TECNICO,
+	GENERAL_VALOR_POR_DEFECTO,
+	GENERAL_ERROR_INTEGRIDAD_DATOS,
+	GENERAL_DATO_NO_ENCONTRADO,
+	GENERAL_LOGICA_NEGOCIO
+
+}
