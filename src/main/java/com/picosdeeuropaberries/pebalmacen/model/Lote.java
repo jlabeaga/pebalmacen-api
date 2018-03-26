@@ -2,7 +2,6 @@ package com.picosdeeuropaberries.pebalmacen.model;
 
 import java.sql.Timestamp;
 import java.util.Date;
-import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -11,7 +10,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 
 import org.hibernate.annotations.CreationTimestamp;
 
@@ -43,8 +41,5 @@ public class Lote {
 	
 	@Enumerated(EnumType.STRING)
 	private TipoEcologico tipoEcologico;	
-	
-	@OneToMany(mappedBy="lote")
-	Set<Partida> partidas;
 	
 }

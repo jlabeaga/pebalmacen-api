@@ -26,9 +26,6 @@ public class Albaran {
 
 	String codigo;
 	
-	@ManyToOne
-	private Cliente cliente;
-	
 	private String observaciones;
 
 	@OneToOne

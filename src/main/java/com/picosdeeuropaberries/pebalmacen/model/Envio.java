@@ -11,7 +11,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 
 import org.hibernate.annotations.CreationTimestamp;
 
@@ -53,8 +52,5 @@ public class Envio {
 	private Date fechaHoraPreparado;
 	
 	private Date fechaHoraEnviado;
-	
-	@OneToMany(mappedBy = "envio")
-	private Set<Palet> palets;
 	
 }

@@ -6,6 +6,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import com.picosdeeuropaberries.pebalmacen.model.Contacto;
 
 @RepositoryRestResource
-public interface ContactoRepository extends CrudRepository<Contacto, Integer> {
+public interface ClienteRepository extends CrudRepository<Contacto, Integer> {
 
 }

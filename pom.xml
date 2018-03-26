@@ -74,12 +74,11 @@
 			<artifactId>jackson-datatype-jsr310</artifactId>
 		</dependency>
 		
-<!--		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
--->
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -98,13 +97,13 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.8.0</version>
 		</dependency>
-<!--  
+
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-data-rest</artifactId>
 		    <version>2.8.0</version>
 		</dependency>
--->		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
